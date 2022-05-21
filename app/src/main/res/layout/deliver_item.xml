@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#00FECE2D"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/deliver_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name:Bayrammali"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/deliver_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Sana: 12.02.2022 15:30"
+        app:layout_constraintTop_toBottomOf="@id/deliver_name" />
+
+    <TextView
+        android:id="@+id/deliver_count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Soni: 1000"
+        app:layout_constraintTop_toBottomOf="@id/deliver_data" />
+
+    <TextView
+        android:id="@+id/deliver_pos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Manzil: 1600 Amphitheatre Pkwy, Mountain View, CA 94043, USA"
+        app:layout_constraintTop_toBottomOf="@id/deliver_count" />
+
+    <TextView
+        android:id="@+id/deliver_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Phone: +998 99 882 74 79"
+        android:textSize="16dp"
+        app:layout_constraintTop_toBottomOf="@id/deliver_pos" />
+
+    <TextView
+        android:id="@+id/deliver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:background="@color/main_color"
+        android:padding="8dp"
+        android:text="Yetkazish"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/deliver_phone" />
+</androidx.constraintlayout.widget.ConstraintLayout>
